@@ -1,0 +1,13 @@
+{
+    "routes": [
+        {
+            "routeMatcher": "/helloworld",
+            "handlerType": "GET",
+            "responseDataFile": "helloworld.json"
+        },
+        {
+            "routeMatcher": "/complex/{id}",
+            "handlerType": "GET"
+        }
+    ]
+}
